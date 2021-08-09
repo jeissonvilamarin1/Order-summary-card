@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/jeissonvilamarin1/Order-summary-card.git
 - Live Site URL: https://jeissonvilamarin1.github.io/Order-summary-card/
 
 ## My process
