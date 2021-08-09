@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/jeissonvilamarin1/Order-summary-card.git
-- Live Site URL: https://jeissonvilamarin1.github.io/Order-summary-card/index.html
+- Live Site URL: https://jeissonvilamarin1.github.io/Order-summary-card/
 
 ## My process
 - i´ve been learning the funadmentals of HTML, CSS, and Javascript. This is my first project with only HTMl and css.
