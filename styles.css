@@ -1,0 +1,111 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  max-width: 1440px;
+  background: var(--pale-blue);
+}
+.hero {
+  width: 375px;
+  height: 630px;
+  border: 1px solid #f8f9fe;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.hero-image img {
+  width: 375px;
+  object-fit: cover;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main h1 {
+  font-weight: 900;
+  height: 30%;
+}
+main p {
+  text-align: center;
+  color: #9898a4;
+  font-size: 1.1em;
+  width: 85%;
+  line-height: 1.5em;
+}
+.subscription {
+  width: 80%;
+  height: 80px;
+  border: 1px solid #f8f9fe;
+  border-radius: 10%;
+  background-color: #f8f9fe;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 40px 40px;
+  gap: 5px;
+  grid-template-areas:
+    "music plan change"
+    "music year change";
+  font-size: 0.9em;
+}
+.music-icon {
+  grid-area: music;
+  justify-self: center;
+  align-self: center;
+}
+.annual-plan {
+  grid-area: plan;
+  justify-self: center;
+  align-self: center;
+  margin-left: 10px;
+}
+.year-payment {
+  grid-area: year;
+  justify-self: start;
+  color: #a6a6b2;
+}
+.change {
+  grid-area: change;
+  justify-self: center;
+  align-self: center;
+  font-weight: 900;
+}
+.buttons {
+  width: 80%;
+  height: 80%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.buttons button {
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #3929e1;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  box-shadow: none;
+}
+.buttons a {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a6a6b2;
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
