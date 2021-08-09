@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://jeissonvilamarin1.github.io/Order-summary-card/
 
 ## My process
 - i´ve been learning the funadmentals of HTML, CSS, and Javascript. This is my first project with only HTMl and css.
